@@ -1,0 +1,34 @@
+VORTEX JAVA: LESSON 1 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title, about 40 seconds)
+Welcome to Vortex Java. This is Java tutorial lesson one of one hundred and fifty. In this series we go from absolute beginner to advanced Java, one topic every day. Today we will learn what Java is and set up everything you need to start coding.
+
+SLIDE 2 (what is Java, about 80 seconds)
+Java is a programming language used for web applications, Android apps, enterprise systems, and big data tools. Its main promise is "write once, run anywhere." You write your code once, and it runs on Windows, Mac, and Linux, because Java code runs on the Java Virtual Machine.
+Look at the diagram. Your code is saved as a .java file. The compiler, called javac, turns it into bytecode. Then the JVM, the Java Virtual Machine, runs that bytecode on your computer.
+
+SLIDE 3 (install the JDK, about 150 seconds)
+The JDK is the Java Development Kit. It contains the compiler, javac, and the tools you need. We will use JDK 21, which is a Long Term Support release, so it will be supported for years.
+Go to adoptium.net and download the Temurin JDK 21 installer for your operating system. Run the installer and keep the default options. On Windows, tick "Set JAVA_HOME" and "Add to PATH".
+Now open a terminal and type java dash version, then javac dash version. You should see a version number starting with 21. If you do, the JDK is installed correctly.
+
+SLIDE 4 (install IntelliJ, about 120 seconds)
+An IDE is an editor with extra help. It highlights errors, completes code, and runs your programs with one click. We will use IntelliJ IDEA Community Edition, which is free.
+Download IntelliJ IDEA Community Edition from the JetBrains website and install it. Open it, choose New Project, select Java, pick JDK 21, and name the project VortexJava.
+
+SLIDE 5 (first check, about 100 seconds)
+Let's confirm everything works. Create a class named Main. Inside it, print a message. We will write the full Hello World program in lesson two. For now, just check that you can run a program and see the output.
+Press the green run button. If you see "Java is ready!" in the console, your setup is complete.
+
+SLIDE 6 (recap, about 50 seconds)
+Today you learned what Java is, how the JDK and the JVM work together, and how to install Java and IntelliJ. Tomorrow we will write our first real program. Comment your operating system below, so I know where you are coming from.
+
+NOTES FOR THE VOICE
+- Say "java dash version" and "javac dash version" as spoken words, not symbols.
+- Say "JDK twenty-one" if the voice reads the number oddly.
+- Target total length: about 9 minutes.
+
+SLIDE 7 (before you go, about 20 seconds)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.

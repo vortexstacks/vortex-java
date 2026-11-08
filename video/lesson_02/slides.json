@@ -1,0 +1,71 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 2", "subtitle": "Your First Java Program: Hello World", "line3": "Compile with javac, run with java"},
+    {
+      "type": "content",
+      "heading": "Hello World, line by line",
+      "bullets": [
+        "The class name must match the file name: HelloWorld.java",
+        "main is the entry point. Java starts running here",
+        "System.out.println prints text and moves to a new line"
+      ],
+      "gap": 80,
+      "code": [
+        "public class HelloWorld {",
+        "    public static void main(String[] args) {",
+        "        System.out.println(\"Hello, World!\");",
+        "    }",
+        "}"
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Step 1: Compile, then run",
+      "bullets": [
+        "javac creates HelloWorld.class from your source file",
+        "java runs it. Do not add .class at the end"
+      ],
+      "code": ["javac HelloWorld.java", "java HelloWorld"]
+    },
+    {
+      "type": "content",
+      "heading": "JDK, JRE and JVM",
+      "bullets": [
+        "JVM: runs your bytecode",
+        "JRE: the JVM plus the standard libraries",
+        "JDK: the JRE plus development tools such as javac",
+        "As a developer, you install the JDK"
+      ],
+      "gap": 85
+    },
+    {
+      "type": "content",
+      "heading": "Common mistakes",
+      "bullets": [
+        "1. Mismatched names: HelloWorld must be saved as HelloWorld.java",
+        "2. A missing semicolon at the end of a statement",
+        "3. Capital letters matter: System is correct, system is not"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "content",
+      "heading": "Recap",
+      "bullets": [
+        "Every Java program starts at main",
+        "javac compiles, java runs",
+        "The JDK contains the JRE, which contains the JVM"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "subscribe",
+      "steps": [
+        "Subscribe to Vortex Java",
+        "Like this video",
+        "Click the bell for every new lesson"
+      ],
+      "footer": "New Java lesson every day"
+    }
+  ]
+}

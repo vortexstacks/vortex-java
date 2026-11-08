@@ -1,0 +1,12 @@
+{
+  "_note": "Lesson 1 slides were drawn by hand before the generator existed, so they are used as finished images.",
+  "slides": [
+    {"type": "image", "file": "source/s1_title.png"},
+    {"type": "image", "file": "source/s2_what_is_java.png"},
+    {"type": "image", "file": "source/s3_install_jdk.png"},
+    {"type": "image", "file": "source/s4_intellij.png"},
+    {"type": "image", "file": "source/s5_first_check.png"},
+    {"type": "image", "file": "source/s6_recap.png"},
+    {"type": "image", "file": "source/s7_subscribe.png"}
+  ]
+}

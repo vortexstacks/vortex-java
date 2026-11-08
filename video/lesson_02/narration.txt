@@ -1,0 +1,34 @@
+VORTEX JAVA: LESSON 2 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title, about 25 seconds)
+Welcome back to Vortex Java. Today you will write your first real Java program, and you will learn exactly what happens when you press run.
+
+SLIDE 2 (the Hello World code, about 110 seconds)
+Here is the classic Hello World program. Let's read it line by line.
+Every Java file has a class. The class name must match the file name, so this class is saved as HelloWorld dot java.
+The main method, public static void main, is the entry point. Java starts running from this method.
+System dot out dot println prints text to the console and moves to a new line.
+
+SLIDE 3 (compile and run, about 80 seconds)
+Java uses two steps. First, the compiler turns your source code into bytecode. Then the JVM runs the bytecode.
+The first command, javac HelloWorld dot java, creates HelloWorld dot class. The second command, java HelloWorld, runs it. Notice that we do not add dot class when we run it.
+
+SLIDE 4 (JDK, JRE and JVM, about 90 seconds)
+These three terms confuse many beginners. The JVM runs your bytecode. The JRE is the JVM plus the standard libraries needed to run programs. The JDK is the JRE plus development tools, such as the compiler. As a developer, you install the JDK.
+Look at the diagram. The JDK contains the JRE, and the JRE contains the JVM.
+
+SLIDE 5 (common mistakes, about 60 seconds)
+Three mistakes to avoid. First, mismatched names: a class named HelloWorld must be saved as HelloWorld dot java. Second, a missing semicolon at the end of a statement. Third, capital letters matter. System is correct, system is not.
+
+SLIDE 6 (recap, about 35 seconds)
+Today you wrote your first Java program, learned the main method, and saw the compile and run steps. Every Java program starts at main.
+
+SLIDE 7 (before you go, about 20 seconds)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. Tomorrow we start with variables and data types. See you then.
+
+NOTES FOR THE VOICE
+- Say "dot java" and "dot class" as spoken words, not symbols.
+- Say "javac" as "jav see". Say "java" as "jav a" only when it is the command.
+- Target total length: about 8 to 9 minutes, which needs roughly 7,000 characters of TTS.
