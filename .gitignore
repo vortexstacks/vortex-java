@@ -1,3 +1,6 @@
 output/
 *.part.mp4
 __pycache__/
+tools/piper/
+tools/voices/*.onnx
+tools/voices/*.json
