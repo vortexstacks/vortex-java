@@ -1,0 +1,24 @@
+VORTEX JAVA: LESSON 3 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title)
+A variable is a named box that stores a value. In this lesson you will learn Java's data types, how to declare variables, and how to choose the right type.
+
+SLIDE 2 (primitive types)
+Java has eight primitive types. The most common are int for whole numbers, like 42. long for large whole numbers, which end with L. double for decimal numbers, like 3.14. char for a single character in single quotes, like A. And boolean, which is true or false.
+
+SLIDE 3 (declaring variables)
+To create a variable, write the type, then the name, then optionally a value. Notice that a variable name must start with a letter, and Java uses camel case, such as isStudent.
+
+SLIDE 4 (the var keyword)
+From Java 10 onward, you can write var and let Java infer the type. The type is still fixed, so the compiler knows exactly what it is.
+
+SLIDE 5 (common mistakes)
+Three common mistakes. First, using int for money with decimals. Second, forgetting the L on long values. Third, using a variable before giving it a value. Java will show a compile error.
+
+SLIDE 6 (recap)
+You learned the main primitive types, how to declare variables, and how var works. Tomorrow we use these variables with operators.
+
+SLIDE 7 (before you go)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.

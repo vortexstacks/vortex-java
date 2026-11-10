@@ -1,0 +1,68 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 3", "subtitle": "Variables and Data Types Explained Simply", "line3": "int, double, char, boolean, long and var"},
+    {
+      "type": "content",
+      "heading": "Primitive data types",
+      "bullets": [
+        "int: whole numbers, for example 42",
+        "long: large whole numbers, ends with L",
+        "double: decimal numbers, for example 3.14",
+        "char: one character in single quotes, for example 'A'",
+        "boolean: true or false"
+      ],
+      "gap": 90
+    },
+    {
+      "type": "content",
+      "heading": "Declaring variables",
+      "bullets": ["Write the type, then the name, then an optional value"],
+      "code": [
+        "int age = 25;",
+        "double price = 99.99;",
+        "char grade = 'A';",
+        "boolean isStudent = true;",
+        "long population = 8000000000L;"
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "The var keyword",
+      "bullets": [
+        "From Java 10, let Java infer the type",
+        "The type is still fixed at compile time"
+      ],
+      "gap": 90,
+      "code": ["var city = \"Chennai\";   // inferred as String"]
+    },
+    {
+      "type": "content",
+      "heading": "Common mistakes",
+      "bullets": [
+        "1. Using int for money with decimals",
+        "2. Forgetting the L on long values",
+        "3. Using a variable before giving it a value"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "content",
+      "heading": "Recap",
+      "bullets": [
+        "int, long, double, float, char and boolean are the main types",
+        "Declare with: type name = value;",
+        "Use var when the type is obvious"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "subscribe",
+      "steps": [
+        "Subscribe to Vortex Java",
+        "Like this video",
+        "Click the bell for every new lesson"
+      ],
+      "footer": "New Java lesson every day"
+    }
+  ]
+}
