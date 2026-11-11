@@ -1,7 +1,7 @@
 Lesson No,Phase,Topic,Planned Publish Date (IST),Script File,Slides Status,Narration (TTS) Status,Video Render Status,Your Review Status,Upload Status,YouTube Video URL,Notes
 1,Beginner,Introduction to Java and setting up the JDK and IDE,2026-11-07,lessons/lesson_01_intro_and_setup.md,Done,Done,Done (voice v3),Approved,"Published (Public), in Java Beginner playlist",https://youtu.be/bxjRKQvxp9I,
 2,Beginner,Hello World and how Java runs,2026-11-08,lessons/lesson_02_hello_world.md,Done (generated),Done (7 clips),Draft built: output/lesson_02_draft.mp4 (1.86 min),Approved,"Published (Public), in Java Beginner playlist",https://youtu.be/Sqm0gDI-vbA,
-3,Beginner,Variables and data types,2026-11-09,lessons/lesson_03_variables_and_data_types.md,Not started,Not started,Not started,Not started,Not started,,
+3,Beginner,Variables and data types,2026-11-09,lessons/lesson_03_variables_and_data_types.md,Done (generated),"Done (7 clips, ttsmp3 Joanna)",Draft built: output/lesson_03_draft.mp4 (1.30 min),Approved,"Published (Public), Java Beginner playlist pending",https://youtu.be/Mj7RHm1W8Kk,Short draft (1.3 min vs 8-9 planned). Playlist add not confirmed yet.
 4,Beginner,Operators,2026-11-10,lessons/lesson_04_operators.md,Not started,Not started,Not started,Not started,Not started,,
 5,Beginner,Taking user input with Scanner,2026-11-11,lessons/lesson_05_scanner_input.md,Not started,Not started,Not started,Not started,Not started,,
 6,Beginner,if / else and switch,2026-11-12,lessons/lesson_06_if_else_and_switch.md,Not started,Not started,Not started,Not started,Not started,,
