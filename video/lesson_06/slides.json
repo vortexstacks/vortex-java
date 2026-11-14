@@ -1,0 +1,15 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 6", "subtitle": "if, else, and switch Explained", "line3": "Decisions in Java programs"},
+    {"type": "content", "heading": "What is a condition", "bullets": ["A condition is true or false", "Java runs a block depending on the result"]},
+    {"type": "content", "heading": "if and else", "code": ["int temperature = 32;", "if (temperature > 30) {", "    System.out.println(\"It is hot.\");", "} else { ... }"]},
+    {"type": "content", "heading": "else if", "bullets": ["Checks run in order, top to bottom", "The first true block runs, the rest are skipped"], "code": ["if (score >= 90) { ... }", "else if (score >= 75) { ... }"]},
+    {"type": "content", "heading": "Classic switch", "bullets": ["One variable, several fixed values", "Each case ends with break", "default runs when nothing matches"]},
+    {"type": "content", "heading": "The break keyword", "bullets": ["Without break, the next case also runs", "This is called fall-through"]},
+    {"type": "content", "heading": "Modern switch expression", "bullets": ["Java 14 and later", "Arrows, no break", "Returns a value"], "code": ["String dayName = switch (day) {", "    case 1 -> \"Monday\";", "    default -> \"Other day\";", "};"]},
+    {"type": "content", "heading": "Choosing the right tool", "bullets": ["if: ranges and complex checks", "switch: one value, fixed options"]},
+    {"type": "content", "heading": "Common mistakes", "bullets": ["1. Using = where you mean ==", "2. Forgetting break in classic switch", "3. Broad condition before narrow one"]},
+    {"type": "content", "heading": "Recap", "bullets": ["if and else use true or false conditions", "else if checks in order", "Switch expressions return values, no break"]},
+    {"type": "subscribe", "steps": ["Subscribe to Vortex Java", "Like this video", "Click the bell for every new lesson"], "footer": "New Java lesson every day"}
+  ]
+}

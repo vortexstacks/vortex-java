@@ -1,0 +1,36 @@
+VORTEX JAVA: LESSON 6 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title)
+So far our programs run every line, from top to bottom, every time. Real programs need to make decisions. In this lesson you will learn how to use if, else, else if, and switch, so your program can choose what to do based on a condition.
+
+SLIDE 2 (what is a condition)
+A condition is an expression that is either true or false. For example, temperature greater than 30 is a condition. Java checks it and then decides which block of code to run. The result of a condition is always a boolean value, which is either true or false.
+
+SLIDE 3 (if and else)
+An if statement runs a block of code only when its condition is true. The else block runs when the condition is false. Notice the curly braces. They group the lines that belong to the if, and the else. In this example the temperature is 32, so the condition is true, and the program prints "It is hot."
+
+SLIDE 4 (else if)
+Use else if when you need to check more than one condition, in order. Java checks each condition from the top. As soon as one is true, it runs that block and skips the rest. Here the score is 72. The first check, 90 or more, is false. The second check, 75 or more, is also false. The third check, 60 or more, is true, so the program prints Grade C. Order matters, so put the most specific checks first.
+
+SLIDE 5 (classic switch)
+When you compare one variable against several fixed values, a switch is cleaner than a long chain of else if. Each case is a value to compare with. Each case should end with break. Without break, Java falls through and runs the next case too. The default case runs when no other case matches.
+
+SLIDE 6 (the break keyword)
+Let's look at fall-through more closely. If the day is 3 and you forget the break after case 3, Java also prints the text for the next case. This is a very common bug. Always check that each case ends with break, unless you want fall-through on purpose.
+
+SLIDE 7 (modern switch expression)
+Since Java 14, you can write a switch expression. It uses arrows instead of colons, and it returns a value. You do not need break, because each arrow runs only its own line. You can store the result in a variable, like dayName in this example.
+
+SLIDE 8 (choosing the right tool)
+Use if and else when your conditions are ranges or complex checks, such as score greater than or equal to 75. Use switch when you compare one value against fixed options, such as a day number or a menu choice. Both are valid, and you will use both in real programs.
+
+SLIDE 9 (common mistakes)
+Three common mistakes. First, using a single equals sign in a condition, when you mean the double equals comparison. Second, forgetting break in a classic switch. Third, putting a broader condition before a narrower one in an else if chain, so the narrower one never runs.
+
+SLIDE 10 (recap)
+You learned if, else if, and else for conditions, and both the classic and modern switch. Remember that conditions are true or false, that else if checks in order, and that switch expressions return a value without break. Tomorrow we move on to loops, which repeat code.
+
+SLIDE 11 (before you go)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.
