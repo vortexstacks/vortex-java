@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PIPER = ROOT / "tools" / "piper" / "piper"
-VOICE = ROOT / "tools" / "voices" / "en_US-amy-medium.onnx"
+VOICE = ROOT / "tools" / "voices" / "en-us-amy-low.onnx"
 
 
 def split_slides(text):
