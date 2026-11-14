@@ -1,0 +1,20 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 7", "subtitle": "for, while, and do-while Loops", "line3": "Repeat code without copying it"},
+    {"type": "content", "heading": "Why we need loops", "bullets": ["Programs repeat things again and again", "Write the code once, run it many times"]},
+    {"type": "content", "heading": "The for loop", "bullets": ["Start, condition, update", "Here: 1 to 5, adds 1 each time"], "code": ["for (int i = 1; i <= 5; i++) {", "    System.out.println(\"Count: \" + i);", "}"]},
+    {"type": "content", "heading": "Adding numbers in a loop", "bullets": ["Start total at 0, add i each run", "1 to 10 gives 55"], "code": ["int total = 0;", "for (int i = 1; i <= 10; i++) {", "    total += i;", "}"]},
+    {"type": "content", "heading": "The while loop", "bullets": ["Checks the condition before each run", "Use when the count is not known in advance"], "code": ["while (number <= 5) {", "    number++;", "}"]},
+    {"type": "content", "heading": "The do-while loop", "bullets": ["Runs the body at least once", "Checks the condition after the body", "Semicolon after the while part"], "code": ["do { ... } while (choice != 0);"]},
+    {"type": "content", "heading": "A menu with do-while", "bullets": ["The menu shows before the check", "Choice 0 stops the loop"]},
+    {"type": "content", "heading": "Nested loops", "bullets": ["A loop inside another loop", "Outer 3 times, inner 2 times each", "Body runs 6 times in total"]},
+    {"type": "content", "heading": "A multiplication table", "bullets": ["Outer loop: rows", "Inner loop: columns", "println after the inner loop ends the row"], "code": ["System.out.print(row * col + \" \");"]},
+    {"type": "content", "heading": "break and continue", "bullets": ["break exits the loop", "continue skips to the next run"], "code": ["if (i == 3) continue;", "if (i == 6) break;"]},
+    {"type": "content", "heading": "Choosing a loop", "bullets": ["for: you know the count", "while: repeat until something happens", "do-while: must run at least once"]},
+    {"type": "content", "heading": "Infinite loops", "bullets": ["The condition never becomes false", "Check that the loop variable changes"]},
+    {"type": "content", "heading": "Common mistakes", "bullets": ["1. Forgetting to update the variable", "2. A semicolon after the for or while parentheses", "3. Using <= when you mean <"]},
+    {"type": "content", "heading": "A practice tip", "bullets": ["Print the loop variable inside the loop", "Watch the values change to find bugs"]},
+    {"type": "content", "heading": "Recap", "bullets": ["for, while, and do-while loops", "break exits, continue skips", "Make sure the loop variable changes"]},
+    {"type": "subscribe", "steps": ["Subscribe to Vortex Java", "Like this video", "Click the bell for every new lesson"], "footer": "New Java lesson every day"}
+  ]
+}

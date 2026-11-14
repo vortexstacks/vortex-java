@@ -1,0 +1,51 @@
+VORTEX JAVA: LESSON 7 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title)
+Loops let you repeat code without copying it. Imagine printing the numbers one to one hundred. Writing one hundred lines would be silly. A loop does the job in a few lines. Today you will learn the for loop, the while loop, and the do-while loop. You will also learn break and continue, nested loops, and how to avoid the most common loop bug.
+
+SLIDE 2 (why we need loops)
+Almost every useful program repeats something. A game repeats its main screen until the player quits. A shop repeats the checkout for every item in the cart. A teacher program repeats the same question for every student. Without loops, you would copy the same code again and again, and any change would need many edits. With a loop, you write the code once, and Java runs it as many times as you need.
+
+SLIDE 3 (the for loop)
+A for loop has three parts, separated by semicolons. The first part sets the starting value. The second part is the condition, which is checked before each run. The third part is the update, which runs after each run. Here the loop starts at 1, keeps going while i is less than or equal to 5, and adds 1 each time. So it prints Count 1 up to Count 5. The variable i exists only inside the loop.
+
+SLIDE 4 (adding up numbers with a for loop)
+A loop is also useful for calculations. Here we add the numbers from 1 to 10. We start with a total of zero. Inside the loop, we add i to total each time. When the loop finishes, total holds 55. Notice that the variable total is declared before the loop, so it still exists after the loop ends. This pattern, a starting value and an accumulator, appears in many programs.
+
+SLIDE 5 (the while loop)
+A while loop checks its condition before each run. If the condition is true, the body runs. If it is false from the start, the body never runs. Use a while loop when you do not know in advance how many times to repeat, for example when you wait for the user to type a valid answer. Make sure something inside the loop changes the condition, such as number plus plus.
+
+SLIDE 6 (the do-while loop)
+A do-while loop is different. It runs the body first, and then checks the condition. That means the body always runs at least once. This is useful for a menu that must show at least once. Notice the semicolon after the closing parenthesis of the while part. Forgetting that semicolon is a common compile error.
+
+SLIDE 7 (a menu with do-while)
+Here is a small menu. The menu prints its options first, because the do part runs before the check. Then the program checks whether the choice is not zero. In a real program, the choice would come from the user. Here we set it to zero to keep the example short, so the loop stops after one run. The key idea is that the body always runs once.
+
+SLIDE 8 (nested loops)
+You can put one loop inside another. This is called a nested loop. The outer loop runs its body a set number of times, and for each of those runs, the inner loop runs fully. In this example, the outer loop runs three times, and the inner loop runs two times for each. So the body runs six times in total. Nested loops are the basis for printing tables and working with grids.
+
+SLIDE 9 (a multiplication table)
+Let's use nested loops to print a small multiplication table. The outer loop goes through the rows, and the inner loop goes through the columns. Each cell is the row times the column. We use print, not println, inside the inner loop, so the numbers stay on the same line. After the inner loop finishes, println moves the cursor to the next line. That is the trick that makes a table.
+
+SLIDE 10 (break and continue)
+Two keywords control a loop from inside. Break exits the loop immediately. Continue skips the rest of the current run and moves to the next one. In this example, when i is 3, continue skips the print. When i is 6, break stops the loop. So the program prints 1, 2, 4 and 5. Use these carefully, because too many exits make a loop hard to read.
+
+SLIDE 11 (choosing a loop)
+Use a for loop when you know how many times to repeat, such as counting from one to ten. Use a while loop when you repeat until something happens. Use a do-while loop when the body must run at least once. All three are valid, and you will use all of them in real programs.
+
+SLIDE 12 (infinite loops)
+The most common mistake is an infinite loop. This happens when the condition never becomes false. For example, a while loop that never changes its variable runs forever, and your program appears to freeze. If that happens, stop the program and check that the loop variable changes on each run.
+
+SLIDE 13 (common mistakes)
+Three common mistakes. First, forgetting to update the loop variable, which causes an infinite loop. Second, putting a semicolon right after the for or while parentheses, which makes the loop body empty. Third, using less than or equal to when you mean less than, which can add one extra run. Check the start, the condition, and the update each time.
+
+SLIDE 14 (a practice tip)
+When a loop does not behave as you expect, add a print statement inside it. Print the loop variable on each run. You will see the values change, and you will often spot the mistake right away. Professional developers do this too. Printing values is one of the best debugging tools for beginners.
+
+SLIDE 15 (recap)
+You learned the for loop, the while loop, and the do-while loop. You can add up numbers in a loop, nest loops to build tables, and use break and continue. You also know how to avoid infinite loops. Tomorrow we group code into methods.
+
+SLIDE 16 (before you go)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.
