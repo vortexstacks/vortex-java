@@ -99,3 +99,22 @@ Channel: Vortex Java (@VortexJava), English, Java Beginner to Advanced.
 - [ ] Uploaded as Public
 - [ ] Added to the phase playlist
 - [ ] Tracker updated with the link
+
+## Upload runbook (after the owner says "approve")
+
+The owner approves each video and drags the MP4 into the Studio dialog. Claude does everything else in one run, without asking again:
+
+1. Copy `output/lesson_NN_draft.mp4` to the owner's Downloads folder with device_commit_files.
+2. Open YouTube Studio Content, click Create, then Upload videos. Wait for the owner to drop the file.
+3. Run `python3 scripts/upload_meta.py NN` and use its title and description exactly.
+4. Made for kids: "No, it's not made for kids". Checks must show "No issues found".
+5. Next, Next, Next to Visibility. Select Public. Click Publish.
+6. Read the video link from the dialog (youtu.be/...).
+7. Content list: select the lesson row, Add to playlist, tick the playlist for its number (1-40 Java Beginner), Save.
+8. Update `tracker/progress_tracker.csv` (status and link), then commit and push under the standing permission in CLAUDE.md.
+
+Stop and tell the owner, do not retry or approve anything, if:
+- The computer link drops (device disconnected) during the run.
+- The browser asks to open a site that is not YouTube, for example a permission prompt for an ad or social domain.
+- Checks show anything other than "No issues found".
+- A title or description field cannot be found on the page.
