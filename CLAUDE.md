@@ -28,4 +28,5 @@ Read `PROCESS.md` before making or uploading any lesson. It has the full daily p
 - Write a new lesson by creating its `lessons/` script, `narration.txt`, and `slides.json`, then run `make slides`.
 - Keep narration in plain words: "dot java", "javac" spoken as "jav see".
 - After an upload, update `tracker/progress_tracker.csv` with the status and the YouTube link.
-- Do not commit or push unless the owner asks.
+- Standing permission (owner, 2026-11-14): after an upload the owner approved, commit the lesson's files and tracker update, then push to main. Commit and push nothing else unless the owner asks.
+- Narration length: follow PROCESS.md (about 7,000 characters, 8 to 9 minutes). Check `wc -c video/lesson_NN/narration.txt` before generating audio.

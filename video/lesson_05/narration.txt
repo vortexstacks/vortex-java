@@ -1,0 +1,36 @@
+VORTEX JAVA: LESSON 5 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title)
+So far, every Java program we wrote has printed fixed text. Today we make our programs interactive. We will ask the user for input from the keyboard, and then use that input in our program. The tool for this is a class called Scanner.
+
+SLIDE 2 (why input matters)
+A program that only prints the same message every time is not very useful. Most real programs need data from the user. A calculator needs numbers. A login screen needs a name and a password. A quiz needs answers. Scanner is the simplest way to read this kind of data from the keyboard in Java.
+
+SLIDE 3 (import and create a Scanner)
+Scanner lives in a package called java dot util, so the first line of your file must import it. Then you create a Scanner object with the keyword new, and you pass System dot in as the argument. System dot in means the keyboard. Notice that we use a variable name, scanner, to refer to the object. You can choose any name, but scanner is the usual choice.
+
+SLIDE 4 (reading text and numbers)
+Scanner has a different method for each type of data. The method nextLine reads a whole line of text, including spaces. The method nextInt reads a whole number. The method nextDouble reads a decimal number. Each method waits for the user to type something and press Enter, and then returns the value.
+
+SLIDE 5 (a complete example)
+Here is a short program that asks for a name and an age. First we print a prompt, using print, not println, so the cursor stays on the same line. Then we read the name with nextLine, and the age with nextInt. Finally we print a greeting that combines the name and the age. When you run it, type your name, press Enter, then type your age and press Enter.
+
+SLIDE 6 (the nextLine trap)
+This is the most common Scanner problem, and many beginners get stuck on it. When you type a number and press Enter, the number is read by nextInt, but the newline character that came from pressing Enter stays in the input. If the next line you read is a nextLine, it reads that leftover newline and returns an empty string. The fix is simple. Call nextLine once right after nextInt, to throw away the leftover newline. After that, your next nextLine works as you expect.
+
+SLIDE 7 (closing the Scanner)
+When you are done with a Scanner, close it with scanner dot close. This releases the resource. Closing a Scanner on System dot in also closes the keyboard input for the whole program, so only close it at the very end of main, not in the middle. Later in the series we will look at ways to close resources automatically.
+
+SLIDE 8 (a calculator example)
+Now let's use what we learned. This program asks for two decimal numbers and prints their sum. We read each number with nextDouble. Notice that nextDouble also leaves a newline behind, but this time we only read numbers, so the trap does not appear. If you mix nextInt, nextDouble, and nextLine, always remember the leftover newline. When the program adds the two numbers, it prints the result with the plus operator, just like we learned earlier.
+
+SLIDE 9 (common mistakes)
+Three common mistakes to avoid. First, forgetting to import java dot util dot Scanner, which causes a compile error. Second, typing letters when the program expects a number, which makes nextInt throw an exception. Third, forgetting the nextLine after nextInt, which gives you an empty string. Read the error message carefully. It usually tells you which line caused the problem.
+
+SLIDE 10 (recap)
+You learned how to import Scanner and create one from System dot in. You can read text with nextLine, whole numbers with nextInt, and decimals with nextDouble. You know the nextLine trap and how to avoid it, and you know to close the Scanner at the end. Tomorrow we use input to make decisions, with if and else.
+
+SLIDE 11 (before you go)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.

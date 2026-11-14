@@ -1,0 +1,15 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 5", "subtitle": "Take User Input with Scanner", "line3": "import, nextLine, nextInt and close"},
+    {"type": "content", "heading": "Why input matters", "bullets": ["Programs need data from the user", "Scanner reads keyboard input"]},
+    {"type": "content", "heading": "Import and create a Scanner", "bullets": ["import java.util.Scanner;", "Pass System.in to read the keyboard"], "code": ["Scanner scanner = new Scanner(System.in);"]},
+    {"type": "content", "heading": "Reading text and numbers", "bullets": ["nextLine: a full line of text", "nextInt: a whole number", "nextDouble: a decimal number"]},
+    {"type": "content", "heading": "A complete example", "code": ["System.out.print(\"Enter your name: \");", "String name = scanner.nextLine();", "int age = scanner.nextInt();"]},
+    {"type": "content", "heading": "The nextLine trap", "bullets": ["nextInt leaves the newline behind", "The next nextLine returns empty text"], "code": ["int age = scanner.nextInt();", "scanner.nextLine();  // consume newline"]},
+    {"type": "content", "heading": "Closing the Scanner", "bullets": ["Call scanner.close() at the end of main", "Closing it also closes System.in"]},
+    {"type": "content", "heading": "A calculator example", "code": ["double a = scanner.nextDouble();", "double b = scanner.nextDouble();", "System.out.println(a + b);"]},
+    {"type": "content", "heading": "Common mistakes", "bullets": ["1. Forgetting the import", "2. Typing letters where a number is expected", "3. Forgetting nextLine after nextInt"]},
+    {"type": "content", "heading": "Recap", "bullets": ["import java.util.Scanner", "nextLine for text, nextInt for integers", "Consume the newline after nextInt"]},
+    {"type": "subscribe", "steps": ["Subscribe to Vortex Java", "Like this video", "Click the bell for every new lesson"], "footer": "New Java lesson every day"}
+  ]
+}
