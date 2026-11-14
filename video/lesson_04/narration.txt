@@ -1,0 +1,27 @@
+VORTEX JAVA: LESSON 4 NARRATION
+Read at a steady, slow pace. Pause briefly at each slide change.
+Generate one audio file per slide (slide numbers below), so the timing lines up.
+
+SLIDE 1 (title)
+Operators are symbols that perform actions on values. In this lesson you will learn arithmetic, comparison, logical, and assignment operators.
+
+SLIDE 2 (arithmetic operators)
+The basic arithmetic operators are plus, minus, multiply, divide, and modulus. Modulus gives the remainder after division. Watch out: when both numbers are int, the division drops the decimal part. Use a double, such as 10.0 divided by 3, to keep decimals.
+
+SLIDE 3 (comparison operators)
+Comparison operators return true or false. Equal to uses two equal signs. Not equal to, greater than, less than, greater or equal, and less or equal work the same way.
+
+SLIDE 4 (logical operators)
+Logical operators combine boolean values. AND uses two ampersands. OR uses two vertical bars. NOT uses an exclamation mark.
+
+SLIDE 5 (assignment and increment)
+The single equals sign assigns a value. Shortcuts such as plus-equals add to a variable. The increment operator, written as two plus signs, adds one.
+
+SLIDE 6 (common mistakes)
+Three common mistakes. First, using one equals sign where you mean two. Second, expecting decimals from int division. Third, forgetting that modulus gives the remainder, not the quotient.
+
+SLIDE 7 (recap)
+You learned arithmetic, comparison, logical, and assignment operators. Remember that modulus gives the remainder, and that two equal signs compare. Tomorrow we take input from the user using Scanner.
+
+SLIDE 8 (before you go)
+Before you go, please subscribe to Vortex Java and like this video. Click the bell icon to turn on notifications, so you get an alert every time we upload a new lesson. See you tomorrow.

@@ -1,0 +1,81 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 4", "subtitle": "Java Operators Explained Simply", "line3": "Arithmetic, comparison, logical and assignment"},
+    {
+      "type": "content",
+      "heading": "Arithmetic operators",
+      "bullets": [
+        "+ - * / %   (% gives the remainder)",
+        "int / int drops the decimal part"
+      ],
+      "code": [
+        "int a = 10;  int b = 3;",
+        "System.out.println(a / b);  // 3",
+        "System.out.println(a % b);  // 1"
+      ],
+      "gap": 90
+    },
+    {
+      "type": "content",
+      "heading": "Comparison operators",
+      "bullets": ["== compares, != not equal, < > <= >= compare sizes"],
+      "code": [
+        "int x = 5;  int y = 8;",
+        "System.out.println(x == y);  // false",
+        "System.out.println(x < y);   // true"
+      ],
+      "gap": 90
+    },
+    {
+      "type": "content",
+      "heading": "Logical operators",
+      "bullets": ["&& is AND,  || is OR,  ! is NOT"],
+      "code": [
+        "boolean hasTicket = true;",
+        "boolean isAdult = false;",
+        "System.out.println(hasTicket && isAdult);  // false"
+      ],
+      "gap": 90
+    },
+    {
+      "type": "content",
+      "heading": "Assignment and increment",
+      "bullets": ["= assigns,  += adds to a variable,  ++ adds one"],
+      "code": [
+        "int score = 10;",
+        "score += 5;   // 15",
+        "score++;      // 16"
+      ],
+      "gap": 90
+    },
+    {
+      "type": "content",
+      "heading": "Common mistakes",
+      "bullets": [
+        "1. Using = where you mean ==",
+        "2. Expecting decimals from int division",
+        "3. Confusing % with division"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "content",
+      "heading": "Recap",
+      "bullets": [
+        "% gives the remainder",
+        "== compares, = assigns",
+        "&& is AND, || is OR, ! is NOT"
+      ],
+      "gap": 110
+    },
+    {
+      "type": "subscribe",
+      "steps": [
+        "Subscribe to Vortex Java",
+        "Like this video",
+        "Click the bell for every new lesson"
+      ],
+      "footer": "New Java lesson every day"
+    }
+  ]
+}
