@@ -1,0 +1,14 @@
+{
+  "slides": [
+    {"type": "title", "title": "Java Tutorial for Beginners 8", "subtitle": "Methods in Java", "line3": "Name a block of code and reuse it"},
+    {"type": "content", "heading": "What is a method?", "bullets": ["A named block of code", "Call the name whenever you need it", "Avoids copying the same lines"]},
+    {"type": "content", "heading": "Defining and calling a method", "bullets": ["void: returns nothing", "static: callable from main"], "code": ["public static void greet() {", "    System.out.println(\"Welcome!\");", "}", "greet();   // call it from main"]},
+    {"type": "content", "heading": "Parameters", "bullets": ["Pass data in through brackets", "Type and name for each value"], "code": ["public static void greetUser(String name) {", "    System.out.println(\"Hello, \" + name);", "}", "greetUser(\"Priya\");"]},
+    {"type": "content", "heading": "Return values", "bullets": ["Return type matches the value", "return sends the result back"], "code": ["public static int add(int a, int b) {", "    return a + b;", "}", "int total = add(4, 6);   // 10"]},
+    {"type": "content", "heading": "void or a return type?", "bullets": ["void: no value comes back", "int, String, and others: must return that type", "Forgot return? The compiler shows an error"]},
+    {"type": "content", "heading": "Method overloading preview", "bullets": ["Same name, different parameters", "The compiler picks the right version", "Changing only the return type is not enough"], "code": ["int add(int a, int b)", "double add(double a, double b)"]},
+    {"type": "content", "heading": "Common mistakes", "bullets": ["Wrong number of values passed in", "Forgetting the brackets when calling", "Defining one method inside another"]},
+    {"type": "content", "heading": "Recap", "bullets": ["Methods are reusable blocks of code", "Parameters pass data in", "return sends data out", "void means no return value"]},
+    {"type": "subscribe", "steps": ["Subscribe to Vortex Java", "Like this video", "Click the bell for every new lesson"], "footer": "New Java lesson every day"}
+  ]
+}
